@@ -1,15 +1,18 @@
 package com.epam.tdd;
 
 import com.epam.tdd.domain.Account;
-import com.epam.tdd.exception.InvalidAccountException;
-import com.epam.tdd.service.AccountService;
-import com.epam.tdd.service.AccountServiceImplementer;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+
+// TODO : account name should have min length of 5 chars
+// TODO : account name should have max length of 20 chars
+// TODO : account name should have only alphabets
+// TODO : account name should only contain small alphabets
+// TODO : account name can contain Underscores
+// TODO : Account should have user name and password
+// TODO : account name cannot be null
+
 
 public class AccountServiceTest {
     private static AccountService accountService;
